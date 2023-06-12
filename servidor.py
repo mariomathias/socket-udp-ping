@@ -21,6 +21,6 @@ while True:
     # Se o número rand é menor que 4, consideramos o pacote perdido.
     if rand < 4:
         continue
-    
+
     #Caso contrário, o servidor responde
     serverSocket.sendto(message, address)
